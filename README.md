@@ -6,7 +6,7 @@ nodejs, npm, javascript, modern browser with html and css support.
 # Installation:
 1. Download repo and go to root folder of project.
 2. npm init -y
-3. npm install express multer mongoose dotenv body-parser crypto
+3. npm install express multer mongoose dotenv body-parser
 4. make account in mongodb atlas
 5. create cluster and database
 6. create collection named **messages**
