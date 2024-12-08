@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anonymous Feelings</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Express Yourself</h1>
+    <textarea id="textInput" placeholder="Write your feeling..." maxlength="500"></textarea>
+    <div class="audio-controls">
+      <button id="recordButton">🎙️ Record</button>
+      <button id="stopButton" disabled>⏹️ Stop</button>
+      <audio id="audioPreview" controls hidden></audio>
+    </div>
+    <button id="sendButton" disabled>Send</button>
+
+    <div id="responseArea">
+      <h2>Received:</h2>
+      <div id="responseContent"></div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
+
